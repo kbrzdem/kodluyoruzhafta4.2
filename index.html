@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+        <input type="text" placeholder="isim" class="form__isim" id="name">
+        <input type="text" placeholder="soyisim" class="form__isim" id="surname">
+        <input type="text" placeholder="kullanıcı adı" class="form__isim" id="username">
+        <input type="password" placeholder="Parola" class="form__parola"  id="password">
+        <input type="password" placeholder="Parola" class="form__parola"  id="password2">
+        <button type="submit">Gönder</button>
+        
+    </div>
+    <div class="result">
+        <div class="error d-none" id="hata">Parolalar  Eşleşmiyor ya da Parolalardan Birisi Boş!</div>
+        <div class="success d-none" id="başarı">Hoşgeldiniz</div>
+    </div>  
+    <script src="style.js"></script>
+</body>
+</html>
